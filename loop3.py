@@ -1,7 +1,7 @@
 # wap to using choice based user can exit from the program only if your can press 5
 
 #condition pata naa ho to ciondition initialize nhi krenge
-#con ko 1 time boolean run krwata h
+#con ko  boolean run krwata h
 
 #  break turant pause
 # continue loop ko fir se execute
@@ -27,87 +27,145 @@
 #         print("app galat ho")
 #         continue              
 
-#eval calculate from string
-#by defalut eval string  use krta h
+# eval calculate from string
+# eval bodmass ke concept ko follow krta h
+# by defalut eval string  use krta h
 
 
+#////////////////////////////////////////////////////////////////////////////////
 
-print("press 1 for Addition")
-print("press 2 for Subtraction")
-print("press 3 for PRIME NUMBER")
-print("press 4 for  FACTORIAL")
-print("press 5 from fabonacci sercies")
-print("press 6 for PALINDROME NO")
-print("Press 7 for Amstrong NO")
-choice=int(input("Enter your choice "))
 
-if(choice==1):
-    add1=int(input("Enter no 1 for Addition "))
-    add2=int(input("Enter no 2 for Addition "))
-    print(f"Addition = {add1+add2}")
+# print("press 1 for Addition")
+# print("press 2 for Subtraction")
+# print("press 3 for PRIME NUMBER")
+# print("press 4 for  FACTORIAL")
+# print("press 5 from fabonacci sercies")
+# print("press 6 for PALINDROME NO")
+# print("Press 7 for Amstrong NO")
+
+# choice=int(input("Enter your choice "))
+
+# if(choice==1):
+#     add1=int(input("Enter no 1 for Addition "))
+#     add2=int(input("Enter no 2 for Addition "))
+#     print(f"Addition = {add1+add2}")
     
-elif(choice==2):
-    sub1=int(input("Enter  NO  1 for subtraction "))
-    sub2=int(input("Enter  NO  2 for subtraction "))
-    print(f"subtraction = {sub1-sub2} ")
-elif(choice==3):
-    p=int(input("Enter the No to find prime No "))
-    count=0
-    i=1
-    while(i<=p):
-        if(p%i==0):
-            count+=1
-        i+=1    
-    if(count==2):
-        print(" Given your Number is PRIME NO")  
-    else:
-        print("Not a PRIME NO")  
-elif(choice==4):
-   f=int(input("Enter NO for Factorial "))
-   fact=1
-   i=1
-   while(i<=f):
-       fact=fact*i
-       i+=1
-   print(f"FACTORIAL = {fact}") 
-elif(choice==5):
-    fabo=int(input("Enter any Number for fibbonacii serice "))
-    a=0
-    b=1
-    c=0
-    print(a)
-    print(b)
+# elif(choice==2):
+#     sub1=int(input("Enter  NO  1 for subtraction "))
+#     sub2=int(input("Enter  NO  2 for subtraction "))
+#     print(f"subtraction = {sub1-sub2} ")
+# elif(choice==3):
+#     p=int(input("Enter the No to find prime No "))
+#     count=0
+#     i=1
+#     while(i<=p):
+#         if(p%i==0):
+#             count+=1
+#         i+=1    
+#     if(count==2):
+#         print(" Given your Number is PRIME NO")  
+#     else:
+#         print("Not a PRIME NO")  
+# elif(choice==4):
+#    f=int(input("Enter NO for Factorial "))
+#    fact=1
+#    i=1
+#    while(i<=f):
+#        fact=fact*i
+#        i+=1
+#    print(f"FACTORIAL = {fact}") 
+# elif(choice==5):
+#     fabo=int(input("Enter any Number for fibbonacii serice "))
+#     a=0
+#     b=1
+#     c=0
+#     print(a)
+#     print(b)
 
-    while(c<fabo):
-         result =a+b
-         print(result)
-         a=b
-         b=result
-         c=c+1
-elif(choice==6):
-    palin=int(input("Enter any no "))
-    res=0
-    m=palin
-    while(palin!=0):
-        r=palin%10
-        res=res*10+r
-        palin=palin//10
-    if(m==res):
-        print("palindome number")    
+#     while(c<fabo):
+#          result =a+b
+#          print(result)
+#          a=b
+#          b=result
+#          c=c+1
+# elif(choice==6):
+#     palin=int(input("Enter any no "))
+#     res=0
+#     m=palin
+#     while(palin!=0):
+#         r=palin%10
+#         res=res*10+r
+#         palin=palin//10
+#     if(m==res):
+#         print("palindome number")    
+#     else:
+#         print("not")
+# elif(choice==7):
+#     ams=int(input("Enter number ")) 
+#     sum=0
+#     tem=ams
+#     while(ams!=0):
+#         re=ams%10
+#         sum=sum+re**3
+#         ams=ams//10
+#     if(tem==sum):
+#         print("Amstrong No")
+#     else:
+#         print("not") 
+# else:
+#     print("please press valid keys")
+#     pass                     
+
+
+
+
+# wap to crrate food system
+
+
+while(True):
+    print( '''
+          press 1 for samosha
+          press 2 for kachodi
+          press 3 for jalebi 
+
+          press 4 samosha & kachodi
+          press 5  kachodi & jalebi
+          press 6 samosha & jalebi
+
+
+''')
+
+    ch=int(input(" enter your Choice : "))
+
+    if(ch==1):
+        sam=int(input(" how many shamoshe you want : "))
+        sam_p=12
+        sam_bill=sam*sam_p
+        print(f" BILL (samoshe={sam} total={sam_bill}) ")
+    elif(ch==2):
+        kach=int(input(" how many kachodi you want :"))
+        kach_p=15
+        kach_bill=kach*kach_p
+        print(f" BILL (kachodi={kach} total={kach_bill}) ")
+    elif(ch==3):
+        jal=int(input("how many jalebi you want "))
+        jal_p=15
+        jal_bill=jal*jal_p
+        print(f" BILL (jalebi={jal} total={jal_bill}) ")
+
+    # elif(ch==4):
+    #     sam=int(input(" how many shamoshe you want : "))
+    #     kach=int(input(" how many kachodi you want :"))
+    #     sam_kach_p= sam_p*kach_p
+    #     sam_kach_bill=sam*kach
     else:
-        print("not")
-elif(choice==7):
-    ams=int(input("Enter number ")) 
-    sum=0
-    tem=ams
-    while(ams!=0):
-        re=ams%10
-        sum=sum+re**3
-        ams=ams//10
-    if(tem==sum):
-        print("Amstrong No")
-    else:
-        print("not") 
-else:
-    print("please press valid keys")
-    pass                     
+        break
+
+
+
+    
+
+
+
+
+        
