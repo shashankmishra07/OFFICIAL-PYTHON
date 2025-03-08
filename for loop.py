@@ -23,17 +23,17 @@
        
  #palindrome Number--------------------
 
-num=int(input("Enter your no  "))
-m=num
-res=0
-for i in range():
-          r=num%10
-          res=res*10+r
-          num=num//10
-if(m==res):
-   print("plaindrome no ")  
-else:
-   print(" not")   
+# num=int(input("Enter your no  "))
+# m=num
+# res=0
+# for i in range():
+#           r=num%10
+#           res=res*10+r
+#           num=num//10
+# if(m==res):
+#    print("plaindrome no ")  
+# else:
+#    print(" not")   
 
 
 #prime number
@@ -140,4 +140,32 @@ else:
 #     b=c     # 0 1 1 2 3 5 8 13  ...
    
 #     print(c)
+
+
+
+# wap to find the all prime number between 2 user input , also show the number which have exactly fector 
+
+
+# n1=int(input("Enter the no for you want prime no "))
+# n2= int(input("ENter the number "))
+
+# n1=6
+# n2=10
+# if n1>0:
+#      for i in range(n1,n2+1):
+#          count=0
+#          for j in range(1,i+1):
+#                if i%j==0:
+#                     count+=1
+#          if (count==2):
+#               print(" prime no ",i)
+#          elif(count==4):
+#               print(" four factor ",i)     
+
+
+#**********************************************************
+
+
+               
+          
 

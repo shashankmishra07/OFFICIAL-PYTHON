@@ -153,13 +153,8 @@ while(True):
         jal_bill=jal*jal_p
         print(f" BILL (jalebi={jal} total={jal_bill}) ")
 
-    # elif(ch==4):
-    #     sam=int(input(" how many shamoshe you want : "))
-    #     kach=int(input(" how many kachodi you want :"))
-    #     sam_kach_p= sam_p*kach_p
-    #     sam_kach_bill=sam*kach
-    else:
-        break
+    
+    
 
 
 
