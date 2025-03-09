@@ -351,7 +351,201 @@
 
 #ques 17
 
+# for i in range(5):                     #by default loop 0 se satrt hota h
+#     for j in range(0,i+1):
+#         print(j,end=" ")
+#     print()    
+    
+# output
 
+# 0 
+# 0 1
+# 0 1 2
+# 0 1 2 3
+# 0 1 2 3 4
  
    
+#ques 
+# for i in range(5):            #loop by deflaut 0 se start h so
+#     for j in range(5-(i+1)):    # i+1 liya h  5-(i+1) means 0+1 =1 ,5-1 =4 time space print hoga ,yadi nhi lete to space 5 time print ho jata 
+#         print("", end=" ")
+#     for k in range(0,i+1):
+#         print("*", end=" ")
+#     print()        
+        
+# output =
 
+#     * 
+#    * *
+#   * * *
+#  * * * *
+# * * * * *
+
+
+# ques 
+# for i in range(5):
+#     for j in range(5-(i+1)):
+#         print("", end=" ")
+#     for k in range(0,i+1):
+#         print("*",end=" ")
+#     print()    
+
+
+# for i in range(4,0,-1):
+#     for j in range(5-i):
+#         print("",end=" ")
+#     for k in range(0,i):
+#         print("*",end=" ")    
+#     print()
+
+
+#out put
+
+#     * 
+#    * *
+#   * * *
+#  * * * *
+# * * * * *
+#  * * * *
+#   * * *
+#    * *
+#     *
+
+
+   #ques  19
+
+
+# for i in range(5):
+#     for j in range(5-(i+1)):
+#         print("", end=" ")
+#     for k in range(0,i+1):
+#         print("*", end=" ")
+#     print()    
+
+# for i in range(4,0,-1):
+#     for j in range(5-i):
+#         print("",end=" ")
+#     for k in range(0,i):
+#         print("*",end=" ")
+#     print()                  
+
+
+# output
+
+#     * 
+#    * *
+#   * * *
+#  * * * *
+# * * * * *
+#  * * * *
+#   * * *
+#    * *
+#     *
+
+
+# ques 20
+
+# for i in range(65,71):
+#     for j in range(65,i+1):
+#         print(chr(j), end=" ")
+#     print() 
+# 
+
+#output
+# A 
+# A B
+# A B C
+# A B C D
+# A B C D E
+# A B C D E F
+   
+
+
+
+#ques 21
+
+#outer loop always row create krta h     ---
+#inner loop always cowlumn create krta h  |
+
+# for row in range(7):
+#     for col in range(5):
+#         if( (row==0 or row==3 or row==6) or (col==0 or col==4)):
+#             print("*", end=" ")
+#         else:
+#             print(" ", end=" ")
+#     print()        
+   
+
+#    output
+
+# * * * * * 
+# *       *
+# *       *
+# * * * * *
+# *       *
+# *       *
+# * * * * *
+
+
+# for row in range(7):
+#     for col in range(5):
+#         if( (row==0 or row==3 or row==6) or (col==0 or col==4)):
+#             print("*", end=" ")
+#         else:
+#             print(".", end=" ")
+#     print()  
+
+
+
+#     output 
+
+# * * * * * 
+# * . . . *
+# * . . . *
+# * * * * *
+# * . . . *
+# * . . . *
+# * * * * *   
+# 
+
+
+#ques 22
+
+# for row in range(7):
+#     for col in range(5):
+#         if((row==0 or row==3 or row==6 ) or ( col==4)):
+#             print("*", end=" ")
+#         else:
+#             print(" ", end=" ")
+#     print()            
+
+# output
+
+#   * * * * * 
+#           *
+#           *
+#   * * * * *
+#           *
+#           *
+#   * * * * *
+
+
+# ques 23
+
+for row in range(7):
+    for col in range(5):
+        if((row==0 ) or (col==4)):
+            print("*",end=" ")
+        else:
+            print(" ", end=" ")    
+    print() 
+
+# output
+
+# * * * * * 
+#         *
+#         *
+#         *
+#         *
+#         *
+#         *
