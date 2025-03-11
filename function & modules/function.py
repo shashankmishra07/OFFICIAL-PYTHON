@@ -40,15 +40,58 @@
 # noreturn_noargument()
 
 
-def name():
-    n=int(input(" enter the no "))
-    res=0
-    temp=n
-    while(n!=0):
-        r=n%10
-        res=res*10+r
-        n=n//10
-    print(res)
-name() 
-name()
-name()       
+# def name():
+#     n=int(input(" enter the no "))
+#     res=0
+#     temp=n
+#     while(n!=0):
+#         r=n%10
+#         res=res*10+r
+#         n=n//10
+#     print(res)
+# name() 
+# name()
+# name() 
+#
+
+                  #NO RETURN WITH ARGUMENT
+
+
+# def noreturn_argument(n):           #n is a parameter
+#     for i in range(1,n+1):
+#         for j in range(1,i+1):
+#             print(j, end=" ")
+#         print() 
+# noreturn_argument(5)           
+
+def noreturn_withargument(n):
+    for i in range(n):
+        for j in range(0,i+1):
+            print(j,end=" ")
+        print()
+noreturn_withargument(5)            
+
+
+
+#fun ka name chnage bhi kr skte h hello
+
+ #                      RETURN-NO ARGUMENT
+
+ #multiple value ko show krne ke liye 1 ke bad 1 loop ka use kiya
+ #kisi fun o 1se jayada value return krwate h t vo tupple me value retun krts h
+ #tupple as an array
+ #we can use indexing in tupple
+
+
+ #                        RETURN WITH ARGUMENT
+
+
+
+
+ #Wap using fun with all 4 type . also use while and for loop to make a choice bashed of 20 program in which 10 are from pATTERNS 10 are from amstong,etc
+ # user can exit from the prog only press 21
+
+
+
+ #type of argument 1 keyword argument
+  #2 defalut argu  3arbiter argument
