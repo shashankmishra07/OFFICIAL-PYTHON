@@ -62,28 +62,180 @@
 #         for j in range(1,i+1):
 #             print(j, end=" ")
 #         print() 
-# noreturn_argument(5)           
+# noreturn_argument(5)   5 is a argument
+# 
+# /////////////////////////////////////////////////////////
+          
 
-def noreturn_withargument(n):
-    for i in range(n):
-        for j in range(0,i+1):
-            print(j,end=" ")
-        print()
-noreturn_withargument(5)            
+#  def noreturn_withargument(n):
+#     for i in range(n):
+#         for j in range(n):
+#             print(" ",end=" ")
+#         for k in range(0,i+1):
+#             print("*",end=" ")
+#         print()
+# noreturn_withargument(5)            
+
+#----------------------------------------------------------
+
+# def noreturn_withargument(n):
+#     for i in range(1,n+1):
+#         for j in range(1,i+1):
+#             print(j,end=" ")
+#         print()  
+
+# hello=noreturn_withargument     
+# hello(5)
+                                   ##fun ka name chnage bhi kr skte h hello
+
+
+# output=
+
+# 1 
+# 1 2
+# 1 2 3
+# 1 2 3 4
+# 1 2 3 4 5
+
+
+#---------------------------------------------------------------------------
+
+
+# def noreturn_withargument(n=5):   #n=5 ye defalut h ab hame  fun call ke time argu ki need nahi h 
+#     for i in range(1,n+1):
+#         for j in range(1,i+1):
+#             print(i,end=" ")
+#         print()   
+
+# noreturn_withargument()
+
+# output
+
+# 1 
+# 2 2
+# 3 3 3
+# 4 4 4 4
+# 5 5 5 5 5
+
+#-----------------------------------------------------------------------
 
 
 
-#fun ka name chnage bhi kr skte h hello
+ #                      RETURN-NO ARGUMENT....
 
- #                      RETURN-NO ARGUMENT
 
- #multiple value ko show krne ke liye 1 ke bad 1 loop ka use kiya
- #kisi fun o 1se jayada value return krwate h t vo tupple me value retun krts h
+# def return_noargument():
+#     a=10
+#     b=20
+#     c=a+b
+#     return c
+# x=return_noargument()
+# print(x)
+
+#ya
+
+# print(return_noargument())
+
+
+#--------------------------------------------------------------
+
+# def return_noargument():
+#     a=10
+#     b=20
+#     c=a+b
+#     d=a*b
+#     return c,d
+# x=return_noargument()
+# print(x)     # output= (30, 200)
+
+# print(x[0])   # output=  30 , 0 index pr 30 
+# print(x[1])   # output=   200 , 1 index pr 200
+
+
+
+
+
+ #kisi funtion me 1 se jayada value return krwate h to function tupple me value retun krta h
  #tupple as an array
- #we can use indexing in tupple
+ #tupple me indexing hoti h as an array
+
+
+#------------------------------------------------------------------
+
+# def return_noargument():
+#     a=10
+#     b=20
+#     c=a+b
+#     d=a*b
+#     return c,d
+# x=return_noargument()    #x is a tuplle like array which is mutiple value 
+# add=x[0]+x[1]
+# print(add)    #output is 230
+
+
+
+ #kisi funtion me 1 se jayada value return krwate h to function tupple me value retun krta h
+ #tupple as an array
+ #tupple me indexing hoti h as an array
+
+#-----------------------------------------------------------------
+
+# def return_noargument():
+#     a=10
+#     b=20
+#     c=a+b
+#     d=a*b
+#     return c,d
+# x=return_noargument()
+
+# # add=x[0]+x[1]       #1at way add krne ka 
+# # print(add)   #out=230
+
+# add=0
+# for i in x:     #2nd way loop ke help se multiple data ko tuuple se nikalkr print krwana
+#     add=add+i
+#     print(add)  
+
+#out== 30
+    #  230
+
+ #multiple value ko show krne ke liye 1 ke bad  loop ka use kiya
+#note tupple {means x} me jitni value hogi utne time hi loop chalega 
+# ex x me 2 value h to loop only 2 time chalenga or terminate ho jayega 
+
+
+#-----------------------------------------------------------------------------------------
 
 
  #                        RETURN WITH ARGUMENT
+
+
+def return_withargument(a,b):    #this are perameter
+    c=a+b
+    d=a*b
+    return c,d
+
+x=return_withargument(10,20)
+print(x)   #out {30,200}
+
+add=0
+for i in x:
+    add=add+i
+    print(add)
+
+    #out=30
+#        230
+
+#2nd way loop ke help se multiple data ko tuuple se nikalkr print krwana
+ #multiple value ko show krne ke liye 1 ke bad  loop ka use kiya
+
+
+
+#-----------------the end of fun--------------------------------------------------------
+
+
+
+
 
 
 
