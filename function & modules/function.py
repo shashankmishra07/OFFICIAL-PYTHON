@@ -210,18 +210,18 @@
  #                        RETURN WITH ARGUMENT
 
 
-def return_withargument(a,b):    #this are perameter
-    c=a+b
-    d=a*b
-    return c,d
+# def return_withargument(a,b):    #this are perameter
+#     c=a+b
+#     d=a*b
+#     return c,d
 
-x=return_withargument(10,20)
-print(x)   #out {30,200}
+# x=return_withargument(10,20)
+# print(x)   #out {30,200}
 
-add=0
-for i in x:
-    add=add+i
-    print(add)
+# add=0
+# for i in x:
+#     add=add+i
+#     print(add)
 
     #out=30
 #        230
@@ -242,6 +242,24 @@ for i in x:
 
  #Wap using fun with all 4 type . also use while and for loop to make a choice bashed of 20 program in which 10 are from pATTERNS 10 are from amstong,etc
  # user can exit from the prog only press 21
+
+
+
+
+
+
+def prime():
+    n=int(input(" enter no "))
+    ch=0
+    for i in range(1,n+1):
+        if(n%i==0):
+            ch+=1
+    if(ch==2):
+        print(" prime no")
+    else:
+        print(" no ")        
+prime()
+       
 
 
 
