@@ -259,6 +259,30 @@ def prime():
     else:
         print(" no ")        
 prime()
+
+def prime1(num):
+    num=int(input(" ENter the no "))
+    ch=0
+    for i in range(1,i+1):
+        if(num%i==0):
+            ch+=1
+    if(ch==2):
+        print("prime no ") 
+    else:
+        print("not a prime")    
+prime1()
+def prime1(num):
+    num=int(input(" ENter the no "))
+    ch=0
+    for i in range(1,i+1):
+        if(num%i==0):
+            ch+=1
+    if(ch==2):
+        print("prime no ") 
+    else:
+        print("not a prime")    
+prime1()               
+ 
        
 
 
