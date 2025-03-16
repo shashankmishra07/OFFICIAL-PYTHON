@@ -272,18 +272,6 @@ def prime1(num):
         print("not a prime")    
 prime1()
 
-
-a= int(input("Enter no"))
-res=0
-m=a
-while(a!=0):
-    r=a%2
-    res=res*10+r
-    a=a//10
-if(m==res):
-    print("yes")
-else:
-    print("no")       
  
        
 
