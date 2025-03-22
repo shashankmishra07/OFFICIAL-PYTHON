@@ -280,7 +280,6 @@ prime1()
     else:
         print("not a prime")    
 prime1()
-
     ch=0
     for i in range(1,i+1):
         if(num%i==0):
@@ -288,8 +287,7 @@ prime1()
     if(ch==2):
         print("prime no ") 
     else:
-        print("not a prime")    
-prime1()
+        print("not a pr
 
 
 
