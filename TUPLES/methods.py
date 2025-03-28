@@ -19,3 +19,12 @@ print(tuple.count(2))       #out 1
 
 
 
+
+#wap to count the number of stident with the " A " grade in following tuple
+
+grade= ("C", "D", "A", "A" ,"B", "B" , "A")
+print(grade)
+print(grade.count("A"))   #out= 3
+
+#count(element)  = counts total occurence of any element
+
