@@ -11,7 +11,7 @@
 #-------------------------------------------------------------------------------
 
 #CLASS = class is a blue print of object. class is a user defined data type . Class is a container in which we can store method (function) and  properties.
-# class ke under bane function kop method kaehte h
+# class ke under bane function ko method kaehte h
 
 # syntax of class = in python for creating class you can use a classs keyword
 # ex class myclass:      class declaration
