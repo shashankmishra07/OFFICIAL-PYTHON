@@ -69,3 +69,15 @@ print(set1.difference(set2))     #{5, 6, 7, 8, 9}     dono set ke bhich me diffr
 
 store={9,"9.0"}
 print(store)     # out ={9, '9.0'}
+
+
+# wap  you are given a list of subject for students . Assume one classroom in reQuired for 1 subject.how maany classroom are needeed by all subjects
+
+#"python ", "java","c++","python","javascript", "java","python","java","c++","c"
+
+
+ques= {"python ", "java","c++","python","javascript", "java","python","java","c++","c"}
+
+print(len(ques)) ## duplicvate valuye set ke under allowed nahi hoti
+
+#out = 6 classroom are needed  for seprarte subject
