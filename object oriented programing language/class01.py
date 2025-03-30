@@ -80,8 +80,8 @@ obj.display()     # for accessing the member of an classwe can use object with D
 
 class new:
     def show(self):
-        print(" self keyword examples")
-obj=new()                             # class ke  bad () lagana compulsory whwn we use self keyword nahi to error
+        print(" self. keyword examples")
+obj=new()                             # class ke  bad () parenthisis lagana compulsory whwn we use self keyword nahi to error
 obj.show()   
 
 
