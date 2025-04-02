@@ -38,7 +38,9 @@ obj=child()                      # child class ka object create kiya
 obj.fun1("shashank", "mishra")   # child class ke object se parent class ki property(functions) ko access kr liya
 obj.fun2()
 
-# note= ham self ki help se 1 class ke function ke parameter ya varialbe ko other class ke function me bhi use kr skte h
+# out =  this is a child class   shashank mishra
+
+# note= ham self ki help se 1 class ke function ke parameter ya varialbe ko other class ke function me bhi use kr skte h.....
 
 
 # ------------------------------------------------------------------------------
