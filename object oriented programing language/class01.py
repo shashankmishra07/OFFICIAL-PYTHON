@@ -213,32 +213,32 @@ obj.display()     # for accessing the member of an classwe can use object with D
 
 
 
-# class calculator:
-#     def add(self , a,b):
-#         return a + b
-#     def sub(self ,a,b):
-#         return a- b
-#     def multiply(self, a,b):
-#         return a* b
-#     def divide(self, a , b):
-#         if b !=0:
-#             return a/b
-#         else:
-#             return " Error ! Division by zero "
+class calculator:
+    def add(self , a,b):
+        return a + b
+    def sub(self ,a,b):
+        return a- b
+    def multiply(self, a,b):
+        return a* b
+    def divide(self, a , b):
+        if b !=0:
+            return a/b
+        else:
+            return " Error ! Division by zero "
 
-# obj=calculator()
-# n1=float(input(" Enter no 1 "))
-# n2=float(input(" Enter no 2 "))   
-# oprations=input("  +, - , * , / ")
+obj=calculator()
+n1=float(input(" Enter no 1 "))
+n2=float(input(" Enter no 2 "))   
+oprations=input("  +, - , * , / ")
 
-# if oprations=="+":
-#     print( " addition :",obj.add(n1,n2))
-# elif oprations=="-":
-#     print("subtraction  :",obj.sub(n1,n2))
-# elif oprations=="*":
-#     print(" multiplication :",obj.multiply(n1,n2))
-# elif oprations=="/":
-#     print(" divide :", obj.divide(n1,n2))
+if oprations=="+":
+    print( " addition :",obj.add(n1,n2))
+elif oprations=="-":
+    print("subtraction  :",obj.sub(n1,n2))
+elif oprations=="*":
+    print(" multiplication :",obj.multiply(n1,n2))
+elif oprations=="/":
+    print(" divide :", obj.divide(n1,n2))
 
 
 
