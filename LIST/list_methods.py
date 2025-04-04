@@ -135,6 +135,31 @@ print(min(newlist))   #10
 #these are pre define method in list
 
 
+#----------------------------------------------------------------
+
+
+# # # list are mutable = bcz ham list me elements ko add ya remove kr skte h
+ # but list ko immutable banane ke liye tuple me change kr dete h (jisse changes na kr ske koi)
+
+list1=[1,2,3,4]
+list1.append(5)
+print(list1)    #[1, 2, 3, 4, 5]
+
+tuple=tuple(list1)
+print(type(tuple)) #  <class 'tuple'>
+#tuple.append(8) #AttributeError: 'tuple' object has no attribute 'append'
+
+# # liat ko tuplle me convert kr diya ab list me koi bhi chnages nahi ho skta becz ab ye immutable ho gya h
+
+
+# ye method tab use hoti h jab hame kisi chij ko fix rakhna h jise user cHnge n KR SKE
+# ex user acount name adhar card name upadate kr skta h but adhar number change nahi kr skta thats why
+
+
+
+
+
+
 
 
 

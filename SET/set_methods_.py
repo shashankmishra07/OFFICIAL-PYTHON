@@ -51,3 +51,21 @@ print(sets)    # out = {' abcd', 'dist'}
  # 
  #mutable means jo value chnage ho skti h ex list, dict
  # list , dict  ye dono set me store nahi ho skte 
+
+
+
+` # # sets are mutable = bcz ham sets me elements ko add ya remove kr skte h
+ # but set ko immutable banane ke liye frosenset me change kr dete h (jisse changes na kr ske koi)
+`
+set1={1,2,3,4}
+set1.add(5)
+print(set1)  #{1, 2, 3, 4, 5}
+
+fs=frozenset(set1)   # set ko frozenset me convert kr diya ab set me koi bhi chnages nahi ho skta becz ab ye immutable ho gya h'
+#fs.add(6)   # AttributeError: 'frozenset' object has no attribute 'add'
+
+
+
+# ye method tab use hoti h jab hame kisi chij ko fix rakhna h jise user cHnge n KR SKE
+# ex user acount name adhar card name upadate kr skta h but adhar number change nahi kr skta thats why
+
