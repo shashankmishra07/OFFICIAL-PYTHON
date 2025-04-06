@@ -13,6 +13,7 @@
 # __lshif__(self,other) for <<
 # __rshif__(self,other) for >>
 # so on.....
+# magic method use krne ke liye always constructer hi uuse hogya
 
 
 #-----------------------------------------------------------------------
@@ -54,6 +55,8 @@
 
 ## 1 DEFI..=WHEN we perform addition , mutlipliaction , subtarattion, so on ,    ON THE OBJECT  of an class we can overload the operator using MAGIC METHOD
 
+# magic methods bhi constructer ka hi type hota h ye autometic call hota h jab obj create hota h
+
 # theroy is  in the notebook! (magic methods)
 # like a __add__(self,other) for addition
 # __sub__(self,other) for subtrattion
@@ -61,8 +64,21 @@
 # __mod__(self,other) for mudulous %
 # __lshif__(self,other) for <<
 # __rshif__(self,other) for >>
-# so on.....
+# __pow__(self,other)    for power 
+# __imul__(self,other)  for icrement with multiplication
+# __iadd__(self,other)    for  += (assign the value)
+# __idiv__(self,other)    for  /=
+# __imod__(self,other)    for mod %=  
+# __ipow__(self,other)    for power=
+# __eq__(self,other)    for comparision ==
+# __getitem__(self,other)    for enable indexing like obj
+# __le__(self,other)    for comparision less  than equal to  <=
+# __lt__(self,other)    for comparision less  than  <
+# __ge__(self,other)    for comparision greter  than equal to  >=
+# __gt__(self,other)    for comparision greater  than >
 
+# so on.....
+# magic method bhi 1 type ka constructer hi hota h when wi create object magic method run autometiaclly
 # using MAGIC MATHODS
 
 class myclass:
@@ -119,6 +135,90 @@ obj2=myclass(2)
 print(obj1//obj2)   # the output will be 3 (divide)
 
 # floordiv = this is not take a float value 
+#________________________________________________________________
+
+# class myclass:
+#     def fun1(self,para):
+#         self.para=para
+#     def __add__(self,other):
+#         return self.para+other.para
+# obj1=myclass(100)
+# obj2=myclass(200)
+# print(obj1+obj2)
+# # magic method use krne ke liye always constructer hi uuse hogya
+# magic methods bhi 1 prakar ka constructer hota h
+# out=  erorr
+#------------------------------------------------
+
+class myclass:
+    def __init__(self,para):
+        self.para=para
+    def __eq__(self,other):                    # eq = ==
+        return self.para==other.para
+obj1=myclass(100)
+obj2=myclass(200)
+print(obj1==obj2)
+
+# out= false bcz these is not eual
+
+#------------------------------------------------------------------------
+class myclass:
+    def __init__(self,para):
+        self.para=para
+    def __lt__(self,other):                    # lt = less than <
+        return self.para<other.para
+obj1=myclass(100)
+obj2=myclass(200)
+print(obj1<obj2)
+
+# out= true 
+
+
+    #-----------------------------------------------------------------    
+
+
+
+class myclass:
+    def __init__(self,para):
+        self.para=para
+    def __le__(self,other):                  # le= less than equal to <=
+        return self.para<=other.para
+obj=myclass(100)
+obj2=myclass(200)
+print(obj<=obj2)
+
+
+#out= true
+
+#--------------------------------------------------------------------------\
+
+class myclass:
+    def __init__(self,para):
+        self.para=para
+    def __ge__(self,other):                  # ge= greater than equal to > =
+        return self.para>=other.para
+obj=myclass(100)
+obj2=myclass(200)
+print(obj>=obj2)
+
+# out = false
+
+#----------------------------------------------------------
+
+class myclass:
+    def __init__(self,para):
+        self.para=para
+    def __gt__(self,other):                  # gt= greater than >
+        return self.para>other.para
+obj=myclass(100)
+obj2=myclass(200)
+print(obj>obj2)
+
+# out= false
+
+#--------------------------------------------------------------------
+
+
 
 
 
