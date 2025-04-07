@@ -27,3 +27,5 @@
 # this means that you can use the standard mathemetical operator (+-*/,etc) and comparision opreator (>< == <= >= etc) in your own class , just as you would for built in data types like int float str
 #  
 
+#METHOD OVERRIDING= when we declare more than one function with having same name and passing paramter is also same(variable) . these concept knows as METHOD OVEERRIDING
+# DIFFRENT  diffrent class me same name ki method hogi or passing parametr bhi same hi hoga or parent class child class se inherit hogi 
