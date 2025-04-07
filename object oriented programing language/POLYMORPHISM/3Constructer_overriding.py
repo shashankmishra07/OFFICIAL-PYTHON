@@ -1,5 +1,8 @@
 #Constructer Overriding = Constructer Overriding means that a child class has its own Constructer (_init_()) which replaces the Constructer of the parent class.
  # means child class ka constructer  ne parent class ke constructor ko override kr dega
+# overriding me class ko inherit kiya jata h
+
+#  construter overriding me multiple class hogi or har class ke pass 1 constuter hoga and parent class child class se inherit hogi
 
 #ex
 
@@ -78,6 +81,7 @@ obj=cls3(2,3)
 
 #______________________________________________________________________________
 # this examples only for knowlege . these are wrong bcz one class ke under muiltiple construter nahi ho skte balki 1 class me 1 hi construter hoga
+# jab 1 class me multiple construter ho with diffrent parameter = constructer overload but this is not support in python
 
 # class myclass:
 #     def __init__(self):
