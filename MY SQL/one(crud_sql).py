@@ -27,3 +27,13 @@ if ch==1:
 
     #sql="insert into tabledata (name,rollno,address,class) values(%s,%s,%s,%s)" 
     # table me data ko insert krne ke liye Query = insert into table name
+
+    #mycursor.execute(sql,value) = means sql me database ke table ki feilds h jaha data ko store krwana h,. or VALUE me user dwara fill kiya data h jise database ke table filds me store krwana h . EXECUTE means ye ab database ke table me store hone ke liye ready h
+
+     #mydb.commit()   #commit se hi data database ke table me insert hoga
+
+
+
+
+       
+    
