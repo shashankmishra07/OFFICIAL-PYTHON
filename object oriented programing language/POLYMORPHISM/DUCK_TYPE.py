@@ -5,7 +5,9 @@
 
 # aap kisi object ke prakar ki ispasta rup se jhach nni krte iske bajaye aap jach krte h ki kya yah aapki jarurat ke anushar behave krta h it means iske pass imp methods and properties h
 
-# DUCK TYPE = you dony care what type an objects . you only care if it  behaves the way you need (kya yah object apki expectation ke anushar behave krta h)
+# DUCK TYPE = you dont care what type an objects . you only care if it  behaves the way you need (kya yah object apki expectation ke anushar behave krta h)
+
+# class ko without inherit kiye ham sabhi class ke method ko run krwa skte h
 
 class Duck:
     def speak(self):
