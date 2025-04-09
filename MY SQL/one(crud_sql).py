@@ -15,7 +15,7 @@ if ch==1:
     rollno=input(" Enter the roll no ")
     address=input("Enter the address ")
     class1=input(" Enter the class ")   # class is reserve keyword bez  class1
-    sql="insert into tabledata (name,rollno,address,class) values(%s,%s,%s,%s)"   # %s means data string type h or 4 time isiliye bcz hamare pass 4 filds h 
+    sql="insert into classtable (name,rollno,address,class) values(%s,%s,%s,%s)"   # %s means data string type h or 4 time isiliye bcz hamare pass 4 filds h 
     # sql variable me database ke table ki fileds h means hamne filds ko taget kiya h table ki
     value=(name,rollno,address,class1)    # value nam ke varibale me ye charo variable ki value /data ko store kr liya
     mycursor.execute(sql,value)

@@ -14,7 +14,7 @@ collage=input(" Enter the collage NAme ")
 sub=input(" Enter the Subject ")
 year=input(" Enter the year ")
 location=input(" Enter your Loaction ")
-sql="insert into praticetable (collage,subject,year,location) values(%s,%s,%s,%s)"  # %s means data string type h or 4 time isiliye bcz hamare pass 4 filds h 
+sql="insert into tabledata (collage,subject,year,location) values(%s,%s,%s,%s)"  # %s means data string type h or 4 time isiliye bcz hamare pass 4 filds h 
     # sql variable me database ke table ki fileds h means hamne filds ko taget kiya h table ki
 value=(collage,sub,year,location)    # value nam ke varibale me ye charo variable ki value /data ko store kr liya
 mycursor.execute(sql,value)
