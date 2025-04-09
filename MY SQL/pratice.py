@@ -35,6 +35,6 @@ print(" data added successfull")
 
     #mycursor.execute(sql,value) = means sql me database ke table ki feilds h jaha data ko store krwana h,. or VALUE me user dwara fill kiya data h jise database ke table filds me store krwana h . EXECUTE means ye ab database ke table me store hone ke liye ready h
 
-     #mydb.commit()   #commit se hi data database ke table me insert hoga
+     #mydb.commit()   #commit se hi data database ke table me insert hoga.
 
 
