@@ -4,9 +4,9 @@ class studentdata:
     def __init__(self): # this is a construster
         import mysql.connector
         self.mydb=mysql.connector.connect(
-        host="locahost",
+        host="localhost",
         user="root",
-        password=" ",
+        password="",
         database="student"   # this  is a database name
         )
 
@@ -21,6 +21,7 @@ class studentdata:
         self.mycursor.execute(sql,value)
         self.mydb.commit()
         print(" data added successful")
+        
 
 
 
