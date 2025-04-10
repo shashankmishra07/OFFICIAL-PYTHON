@@ -21,6 +21,9 @@ class studentdata:
         self.mycursor.execute(sql,value)
         self.mydb.commit()
         print(" data added successful")
+
+
+        # self ka use isiliye kiya ki ham function  ke under ke varible , paramerter ko function ke bahar or other file me bhi use kr skte h
         
 
 
