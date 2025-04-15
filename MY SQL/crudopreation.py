@@ -9,7 +9,7 @@ class student:
             database="crudoperation"
             
         )
-        self.mycursor==self.mydb.cursor()
+        self.mycursor=self.mydb.cursor()
 
     def Recordinsert(self,name,roll,age,email):
         try:
@@ -22,7 +22,7 @@ class student:
             print(" mysql error:")
     
     def RecordDisplay(self):
-        sql="select * from curdtable"  # query
+        sql="select * from crudtable"  # query
         self.mycursor.execute(sql)
         mydata=self.mycursor.fetchall()
         for i in mydata:

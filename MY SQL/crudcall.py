@@ -1,5 +1,5 @@
 import crudopreation
-obj= crudopreation. student   # curdoperation name ki file ke ander student name ki class ka object create kiya
+obj= crudopreation.student()   # curdoperation name ki file ke ander student name ki class ka object create kiya
 
 while(True):
     ch=int(input(" Enter the choice : "))
@@ -19,7 +19,9 @@ while(True):
     elif ch==5:
         obj.DeleteRecord()
     elif ch==6:
-        print(" closed ")
+         print(" closed ")
+         exit()
+         
     elif ch==7:
         print(" Wroung choice ")
     
