@@ -1,8 +1,8 @@
-# py me generator 1 specila type of function hota h jo ki yield keyword use krta h
+# python  me Generator 1 specila type of function hota h jo ki yield keyword use krta h
 # yah 1 bar me 1 hi value return krta h memmoey efficent hota h
 #  YIELD= means value do or ruk jao
 # yield keyword return a generator and suspend the execution
-# har bar jab generator ko call krte h to yah aage ki value ko deta h
+# har bar jab Generator ko call krte h to yah aage ki value ko deta h
 # generetor fun normal fun se diffrent hota h bcz ye pure data ko 1 bar me memory me nahi lata
 # 
 # GENERATOR= aesa function jo 1 1 karke value deta h or har bar pause ho jata h jab tak ki GENERATOR ko next time call na kiya jaye
@@ -47,3 +47,7 @@ print(next(g))    # out = C
 # for j in g:
 #     print (j)
 # # out = 1,2,3
+
+
+
+#-----------------------------------------------------------------------------
