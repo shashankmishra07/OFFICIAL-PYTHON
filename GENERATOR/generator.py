@@ -14,8 +14,8 @@ def gen():
     yield 'B'
     yield 'C'
 g=gen()
-print(type(g))  # out = <class 'generator'>
-print(next(g))  # out = A
+print(type(g))  # output = <class 'generator'>
+print(next(g))  # output = A
 print(next(g))    # out = B
 print(next(g))    # out = C
 #____________________________________________________________________________________________
