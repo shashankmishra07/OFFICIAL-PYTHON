@@ -23,5 +23,5 @@ def gen():
         if i%2==0:
           yield i
 for i in gen():
-   print(i)      # output = 2,4,6,8,10
+   print(i)      # out = 2,4,6,8,10
     
