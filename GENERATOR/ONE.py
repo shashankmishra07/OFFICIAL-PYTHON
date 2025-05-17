@@ -6,12 +6,12 @@
 
 # # g=generator()
 # # for i in g:
-# #     print(i)             #output = 1to 100   
+# #     print(i)             #out = 1to 100   
 
 #   # or
 
 # for i in generator():
-#     print(i)               #output= 1to 100
+#     print(i)               #out= 1to 100
 
 
 #______________________________________________________________________
