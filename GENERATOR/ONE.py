@@ -11,7 +11,7 @@
 #   # or
 
 # for i in generator():
-#     print(i)               #output result add = 1to 100
+#     print(i)               #out result add = 1to 100
 
 
 #______________________________________________________________________
